@@ -1,0 +1,77 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Fuggles', cursive;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    position: absolute;
+    color: #cccdcf;
+    top: 13%;
+    font-size: 6em;
+    left: 1%;
+    transform: rotate(-33deg);
+    text-shadow: 4px -4px 12px #1e1f21;
+}
+.firsString{
+    width: 80%;
+}
+.guitar img{
+    width: 100%;
+    max-height:100vh;
+    object-fit: cover;
+}
+.hotaction{
+    width: 2.2%;
+    height: 75%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50px;
+    background:none;
+    bottom: 8%;
+}
+.hotaction:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 4px 5px rgba(0,0,0,0.27); 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 4px 5px rgba(0,0,0,0.27);
+    
+}
+.hotaction p{
+    position: absolute;
+    font-size: 3em;
+    color: white;
+    bottom: 7%;
+    right: 90%;
+    display: none;
+    
+}
+.hotaction:hover p{
+display: inherit;
+pointer-events: none;
+}
+.boton{
+    position: absolute;
+    top: 17%;
+    left: 74.5%;
+    cursor: pointer;
+    transition: all .3s linear;
+    transform: rotate(-17deg);
+}
+.minitext{
+    color: white;
+    font-size:4.5em;
+    text-shadow: -8px -3px 8px #1e1f21;
+}
+.classic{
+    position: absolute;
+    top: 12%;
+    left: 62%;
+}
+.electronic{
+    position: absolute;
+    top: 2%;
+    left: 62%;
+}
